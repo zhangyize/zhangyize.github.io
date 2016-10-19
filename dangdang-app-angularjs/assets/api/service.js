@@ -2,7 +2,7 @@ app.factory('commonService',['$http',function($http){
   var service ={};
   service.getData =function(type,callBack){
     $http({
-      url:'../../data/dangdang1'+type+'.json',
+      url:'../../data/dangdang'+type+'.json',
       method:'get'
     })
     .then(function(res){
