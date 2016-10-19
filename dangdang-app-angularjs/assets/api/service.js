@@ -1,4 +1,4 @@
-app.factory('commonService',['$scope',function(){
+app.factory('commonService',['$scope',function($http){
   var service ={};
   service.getData =function(type,callBack){
     $http({

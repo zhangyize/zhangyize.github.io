@@ -1,1 +1,1 @@
-var app=angular.moudle('app',['ngRoute']);
+var app=angular.module('app',['ngRoute']);
