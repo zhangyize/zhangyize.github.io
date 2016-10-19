@@ -5,15 +5,15 @@ app.config(['$routeProvider', function($routeProvider) {
             templateUrl: './assets/tpl/index.html',
             controller: ''
         })
-        .when('/', {
+        .when('/blog', {
             templateUrl: './assets/tpl/blog.html',
             controller: ''
         })
-        .when('/', {
+        .when('/book', {
             templateUrl: './assets/tpl/book.html',
             controller: 'bookController'
         })
-        .when('/', {
+        .when('/about_me', {
             templateUrl: './assets/tpl/about_me.html',
             controller: ''
         })
