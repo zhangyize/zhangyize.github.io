@@ -15,14 +15,14 @@
             <div ng-view>
 
             </div>
-            <div class="weui-tabbar" ng-controller='mainController'>
+            <div class="weui-tabbar" ng-controller='mainController' style="position:fixed">
                 <a href="#/" ng-click='linkTo(0)' class="weui-tabbar__item  {{selectedIndex==0?'weui-bar__item_on':''}}">
                     <img src="./assets/images/icon_nav_button.png" alt="" class="weui-tabbar__icon">
                     <p class="weui-tabbar__label">首页</p>
                 </a>
-                <a href="#/blog" ng-click='linkTo(1)' class="weui-tabbar__item  {{selectedIndex==1?'weui-bar__item_on':''}}">
+                <a href="#/weather" ng-click='linkTo(1)' class="weui-tabbar__item  {{selectedIndex==1?'weui-bar__item_on':''}}">
                     <img src="./assets/images/icon_nav_cell.png" alt="" class="weui-tabbar__icon">
-                    <p class="weui-tabbar__label">博客</p>
+                    <p class="weui-tabbar__label">天气查询</p>
                 </a>
                 <a href="#/book" ng-click='linkTo(2)' class="weui-tabbar__item  {{selectedIndex==2?'weui-bar__item_on':''}}">
                     <img src="./assets/images/icon_nav_msg.png" alt="" class="weui-tabbar__icon">
